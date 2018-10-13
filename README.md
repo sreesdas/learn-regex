@@ -557,6 +557,20 @@ possible. we can use `?` to match in lazy way means as short as possible
 
 [Test the regular expression](https://regex101.com/r/AyAdgJ/2)
 
+## Most Frequently used Regex
+
+* Email
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+
+* URL
+/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+
+* IP Address
+/^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/
+
+* HTML Tag
+/^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/
+
 
 ## Contribution
 
